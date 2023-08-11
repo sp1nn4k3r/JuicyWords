@@ -5,6 +5,12 @@ Extract interesting words from repositories in PHP files. There are two basic ve
 # Usage
 
 git clone *
+
+
 chmod +x juicywords.sh
+
+
 ./juicywords.sh -p /path/to/repo
+
+
 ./juicywords.sh -p /path/to/repo -o result
