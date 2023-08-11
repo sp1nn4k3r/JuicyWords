@@ -42,7 +42,7 @@ if [ -z "$REPO_PATH" ]; then
 fi
 
 
-RESULTS=$(find "$REPO_PATH" -type f -name "*.php" -exec grep -o "$SEARCH_TERM" {} + | sort -u)
+RESULTS=$(find "$REPO_PATH" -type f -name "*.php" -exec grep -o "$SEARCH_TERM" {} + )
 
 
 if [ -n "$OUTPUT_FILE" ]; then
