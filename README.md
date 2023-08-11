@@ -4,7 +4,7 @@ Extract interesting words from repositories in PHP files. There are two basic ve
 
 # Usage
 
-git clone *
+git clone https://github.com/sp1nn4k3r/JuicyWords.git
 
 
 chmod +x juicywords.sh
